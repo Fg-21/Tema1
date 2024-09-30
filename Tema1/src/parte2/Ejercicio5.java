@@ -12,7 +12,7 @@ public class Ejercicio5 {
 		double sec;
 		
 		//Abrimos scanner
-		System.out.println();
+		System.out.println("Tiempo en segundos:");
 		Scanner rd = new Scanner(System.in);
 		
 		//Pedimos los segundos
@@ -20,7 +20,7 @@ public class Ejercicio5 {
 		sec = rd.nextDouble();
 		
 		//Calculamos y mostramos horas minutos y segundos
-		System.out.println("Hay " + (int) sec/3600 + " horas, " + (int) ((sec%3600)/60) + " minutos y " + (int) ((sec%3600)%60)/60 + " segundos");
+		System.out.println("Hay " + (int) sec/3600 + " horas, " + (int) ((sec%3600)/60) + " minutos y " + (int) ((sec%3600)%60) + " segundos");
 		
 	}
 }
