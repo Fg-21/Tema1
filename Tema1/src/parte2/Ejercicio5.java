@@ -22,5 +22,7 @@ public class Ejercicio5 {
 		//Calculamos y mostramos horas minutos y segundos
 		System.out.println("Hay " + (int) sec/3600 + " horas, " + (int) ((sec%3600)/60) + " minutos y " + (int) ((sec%3600)%60) + " segundos");
 		
+		//Cerramos scanner
+		rd.close();
 	}
 }
